@@ -1,0 +1,49 @@
+Object.freeze({}) //dont edit in object can't deleted
+
+Object.create()
+
+Object.assign()  // assignment from object to it 
+
+=========================================================
+
+let user = {
+  name: "Mohamed",
+  getName: function () {
+    console.log(`you name is ${user.naem}`);
+  },
+};
+
+console.log(delete user.getName);
+console.log(user);
+
+
+===============================================
+
+
+Object.defineProperty(mo, "name", { value: "Ahmed", configurable: false });
+
+
+==================================================
+
+let user = {
+  name: "Mohamed",
+  params: "ahmed params",
+  query: "ahmed query",
+  file: "fk me harder",
+  getName: function () {
+    console.log(`you name is ${user.naem}`);
+  },
+};
+
+
+for (const key in user) {
+  console.log(user[key]);
+}
+
+
+
+
+
+
+
+=======================================
