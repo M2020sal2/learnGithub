@@ -1,0 +1,15 @@
+.btn-div {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-div * {
+  text-align: center;
+}
+
+.fk {
+  color: rgb(104, 57, 57);
+}
